@@ -4,13 +4,17 @@ public class Contacts {
     private String name;
     private String phoneNumber;
 
-    public String getName() {
-        return name;
+    public Contacts(String name, String phoneNumber) {
+        this.name = name;
+        this.phoneNumber = phoneNumber;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public void printContact() {
+        System.out.println("Contact Name: " + this.name);
+        System.out.println("Phone number: " + this.phoneNumber);
     }
 
-    public
+    public int searchConcact(String contactName) {
+        for (int i = 0; i < )
+    }
 }
